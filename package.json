@@ -1,0 +1,41 @@
+{
+  "name": "gulp-benchmark",
+  "version": "1.0.0",
+  "description": "Run benchmark tests",
+  "license": "MIT",
+  "repository": "hiddentao/gulp-benchmark",
+  "author": {
+    "name": "Ramesh Nair",
+    "email": "ram@hiddentao.com",
+    "url": "http://hiddentao.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "benchmark",
+    "test",
+    "testing",
+    "performance",
+    "framework"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.0",
+    "through2": "~0.4.0",
+    "lodash": "~2.4.1",
+    "benchmark": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.3",
+    "clockmaker": "~1.2.1"
+  }
+}
