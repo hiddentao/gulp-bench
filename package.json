@@ -22,9 +22,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "files": [
-    "index.js"
-  ],
+  "main": "index.js",
   "keywords": [
     "gulpplugin",
     "benchmark",
