@@ -1,5 +1,5 @@
 {
-  "name": "gulp-benchmark",
+  "name": "gulp-bench",
   "version": "1.0.0",
   "description": "Run benchmark tests",
   "license": "MIT",
