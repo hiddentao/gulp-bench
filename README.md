@@ -31,7 +31,7 @@ In your gulpfile:
 
 ```js
 var gulp = require('gulp');
-var benchmark = require('gulp-benc');
+var benchmark = require('gulp-bench');
 
 gulp.task('default', function () {
 	return gulp.src('test.js', {read: false})
