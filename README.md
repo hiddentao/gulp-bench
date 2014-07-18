@@ -18,8 +18,6 @@ The usage syntax below is the same as for [grunt-benchmark](https://github.com/s
 Setup your benchmark test, e.g. in `test.js`:
 
 ```js
-// file: test.js
-
 var fibonacci = function(n) {
   return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
 };
@@ -66,8 +64,6 @@ You can modify the results filename and format by supplying [plugin options](#pl
 Tests can be configured through futher options:
 
 ```js
-// file: test.js
-
 module.exports = {
   name: 'Timeout (asynchronous)',
   maxTime: 2, /* test should run for max. this no. of seconds */
@@ -116,7 +112,6 @@ module.exports = {
 The expected console output for the above test suite will look similar to:
 
 ```bash
-$ gulp
 Running suite Timeout Showdown [./test-data/compare.js]...
     Sync x 69,826,905 ops/sec ±4.27% (37 runs sampled)
     Async-50 x 19.64 ops/sec ±0.25% (40 runs sampled)
