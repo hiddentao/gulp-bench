@@ -43,8 +43,8 @@ Run it:
 
 ```bash
 $ gulp
-Running benchmark basic [./test-data/basic.js]...
-basic x 1,107,255 ops/sec ±0.74% (96 runs sampled)
+[16:11:01] Running benchmark basic [./test-data/basic.js]...
+[16:11:11]    basic x 1,107,255 ops/sec ±0.74% (96 runs sampled)
 ```
 
 As well as outputting to console output the plugin stream returns a single file containing the test results in JSON form:
@@ -112,11 +112,11 @@ module.exports = {
 The expected console output for the above test suite will look similar to:
 
 ```bash
-Running suite Timeout Showdown [./test-data/compare.js]...
-    Sync x 69,826,905 ops/sec ±4.27% (37 runs sampled)
-    Async-50 x 19.64 ops/sec ±0.25% (40 runs sampled)
-    Async-100 x 9.91 ops/sec ±0.17% (23 runs sampled)
-Fastest test is Sync at 3,555,514.2x faster than Async-50
+[16:11:01] Running suite Timeout Showdown [./test-data/compare.js]...
+[16:11:11]    Sync x 69,826,905 ops/sec ±4.27% (37 runs sampled)
+[16:11:26]    Async-50 x 19.64 ops/sec ±0.25% (40 runs sampled)
+[16:11:38]    Async-100 x 9.91 ops/sec ±0.17% (23 runs sampled)
+[16:11:40] Fastest test is Sync at 3,555,514.2x faster than Async-50
 ```
 
 The tests within a suite can also be specified as an array:

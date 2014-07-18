@@ -1,9 +1,9 @@
 'use strict';
 
 var _ = require('lodash'),
-	benchmark = require('./lib/benchmark'),
+  path = require('path'),
+	benchmark = require(path.join(__dirname, 'lib', 'benchmark')),
 	gutil = require('gulp-util'),
-	path = require('path'),
 	through2 = require('through2');
 
 
