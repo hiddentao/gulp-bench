@@ -1,7 +1,7 @@
 {
   "name": "gulp-bench",
-  "version": "1.0.1",
-  "description": "Run benchmark tests",
+  "version": "1.0.2",
+  "description": "Run performance benchmark tests",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiddentao/gulp-bench/issues"

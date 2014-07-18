@@ -1,6 +1,6 @@
 # [gulp](http://gulpjs.com)-bench [![Build Status](https://travis-ci.org/hiddentao/gulp-bench.svg?branch=master)](https://travis-ci.org/hiddentao/gulp-bench)
 
-Run [Benchmark](http://benchmarkjs.com/) tests. Ported from [grunt-benchmark](https://github.com/shama/grunt-benchmark).
+Run performance [Benchmark](http://benchmarkjs.com/) tests. Ported from [grunt-benchmark](https://github.com/shama/grunt-benchmark).
 
 ## Install
 

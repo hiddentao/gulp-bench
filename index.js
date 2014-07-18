@@ -2,7 +2,7 @@
 
 var _ = require('lodash'),
   path = require('path'),
-	benchmark = require(path.join(__dirname, 'lib', 'benchmark')),
+	benchmark = require('./lib/benchmark'),
 	gutil = require('gulp-util'),
 	through2 = require('through2');
 
