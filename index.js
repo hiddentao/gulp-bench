@@ -14,7 +14,7 @@ module.exports = function (options) {
 	var b = benchmark();
 
 	options = _.extend({
-		output: path.join(process.cwd(), 'benchmark-results.json'),
+		output: 'benchmark-results.json',
 		outputFormat: 'json'
 	}, options);
 
@@ -23,12 +23,11 @@ module.exports = function (options) {
 	}, function (cb) {
 		var f = new File({
     	cwd: process.cwd(),
-    	base: path.dirname(options.output),
     	path: options.output,
     	contents: new Buffer(b.getResults())
    	});
 
-		this.emit('data', f);
+		this.push(f);
 
 		cb();
 	});
